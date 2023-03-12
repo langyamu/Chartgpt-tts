@@ -8,7 +8,7 @@
     "url": "git+https://github.com/langyamu/Chartgpt-tts.git"
   },
   "scripts": {
-    "cz": "git cz"
+    "cz": "git add . && git cz"
   },
   "config": {
     "commitizen": {
