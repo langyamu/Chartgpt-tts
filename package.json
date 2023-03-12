@@ -1,0 +1,32 @@
+{
+  "name": "Chartgpt-tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langyamu/Chartgpt-tts.git"
+  },
+  "scripts": {
+    "cz": "git add . && git cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa-router": "^7.4.4",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.6.0"
+  }
+}
